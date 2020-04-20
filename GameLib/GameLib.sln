@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameLib", "GameLib\GameLib.csproj", "{3D929391-81CC-4096-859D-EEEBAA89B21D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameTest", "GameTest\GameTest.csproj", "{EA21C853-5B85-49BD-8F63-969A6B69438A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamePlay", "GamePlay\GamePlay.csproj", "{2086D388-AFC8-4E56-86CE-E689E6977952}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D929391-81CC-4096-859D-EEEBAA89B21D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D929391-81CC-4096-859D-EEEBAA89B21D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D929391-81CC-4096-859D-EEEBAA89B21D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D929391-81CC-4096-859D-EEEBAA89B21D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA21C853-5B85-49BD-8F63-969A6B69438A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA21C853-5B85-49BD-8F63-969A6B69438A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA21C853-5B85-49BD-8F63-969A6B69438A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA21C853-5B85-49BD-8F63-969A6B69438A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2086D388-AFC8-4E56-86CE-E689E6977952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2086D388-AFC8-4E56-86CE-E689E6977952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2086D388-AFC8-4E56-86CE-E689E6977952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2086D388-AFC8-4E56-86CE-E689E6977952}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94DE0828-05EF-4576-87F8-0C0C83E6B6A7}
+	EndGlobalSection
+EndGlobal
