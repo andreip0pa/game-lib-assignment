@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace GameLib
-{
+{//WORK IN PROGRESS 
+    /// <summary>
+    /// WORK IN PROGRESS
+    /// </summary>
    public class Game
     {
         private string gameName;
@@ -13,7 +16,7 @@ namespace GameLib
             get { return gameName; }
             set { gameName = value; }
         }
-
+        
         public Game(string name)
             
         {
@@ -29,7 +32,7 @@ namespace GameLib
 
 
         }
-
+        //WORK IN PROGRESS
         public void Start()
         {
             GameObjects.CharacterLibrary cl = new GameObjects.CharacterLibrary();
@@ -66,7 +69,7 @@ namespace GameLib
 
 
         }
-
+        //WORK IN PROGRESS
         public void GameLoop()
         {
             bool combat = false;
@@ -99,7 +102,7 @@ namespace GameLib
                 //{
                 //    Console.WriteLine("You found a " + item);
                 //}
-            }
+            }//WORK IN PROGRESS
             while (combat)
             {
                 Console.WriteLine("What do you want to do?");
@@ -119,7 +122,7 @@ namespace GameLib
                     for (int i = 0; i < currentTile.GetAllObjects().Count; i++)
                     {
                         Console.WriteLine((i+1)+"."+currentTile.GetAllObjects()[i]);
-                    }
+                    }//WORK IN PROGRESS
                     choice = Convert.ToInt32(Console.ReadLine());
                     GameObject enemy = currentTile.GetAllObjects()[choice - 1];
                     int c = 1;
@@ -141,7 +144,7 @@ namespace GameLib
                     }
                     Console.Read();
 
-
+                    //WORK IN PROGRESS
                 }
 
 
@@ -153,14 +156,14 @@ namespace GameLib
                 Console.WriteLine("2.Move");
 
             }
-            
+            //WORK IN PROGRESS
 
-            
+
 
 
             //
 
-                //
+            //
         }
 
 
